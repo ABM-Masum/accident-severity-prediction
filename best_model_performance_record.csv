@@ -1,0 +1,7 @@
+Rank,Model,ROC_AUC,Macro_F1,Macro_Recall,Comment
+1,CatBoost_Baseline,0.6873,0.3098,0.3341,Strongest overall
+2,LightGBM_Baseline,0.6797,0.3117,0.3348,Very close to CatBoost
+3,XGBoost_Baseline,0.6753,0.3131,0.3353,Good but slightly behind
+4,LightGBM_SMOTE,0.6553,0.3184,0.3354,Better Macro_F1
+6,ANN_SMOTE,0.6451,0.3309,0.3427,Highest Macro_F1 among deep models
+10,RandomForest_SMOTE,0.6221,0.3428,0.3443,Highest Macro_F1 but weak ROC_AUC

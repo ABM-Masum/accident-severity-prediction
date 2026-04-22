@@ -50,6 +50,7 @@ hotspot_forecasting_outputs/
 # Optional datasets
 # -----------------------------
 accident_data.csv
+model_comparison_results.csv
 
 # -----------------------------
 # Logs

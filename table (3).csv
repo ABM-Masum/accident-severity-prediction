@@ -1,0 +1,5 @@
+Method,How it Works,Speed,Efficiency,Smartness,Best For
+Grid Search,Tries all possible combinations,Very Slow,Very Poor,None,Small search space
+Random Search,Randomly samples combinations,Fast,Moderate,Low,Quick exploration
+Optuna,Bayesian Optimization + Pruning,Fast,Excellent,Very High,Most real-world cases
+Bayesian (others),Gaussian Process etc.,Medium,Good,High,Smaller models
